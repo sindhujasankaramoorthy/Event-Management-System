@@ -1,3 +1,6 @@
+package Model;
+import java.util.*;
+
 public class Event {
     private int eId;
     private String eName;

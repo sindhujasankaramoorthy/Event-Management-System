@@ -1,3 +1,5 @@
+package Model;
+
 public class Participant extends User {
     private String pClg;
     private String branch;
