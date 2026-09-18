@@ -19,4 +19,9 @@ public class Event {
         this.venue = venue;
         this.organizers = organizers;
     }
+
+    //we have used this is EventController -> searchEvent
+    public int getEId() {
+        return eId;
+    }
 }

@@ -1,4 +1,4 @@
-pubic class Organizer extends User {
+public class Organizer extends User {
     private int oId;
     private String dept;
 
