@@ -27,4 +27,16 @@ public class Event {
     public int getEId() {
         return eId;
     }
+
+    @Override
+    public String toString() {
+        return "Event ID: " + eId +
+                "\nEvent Name: " + eName +
+                "\nEvent Type: " + type +
+                "\nDate: " + date +
+                "\nStart Time: " + startTime +
+                "\nEnd Time: " + endTime +
+                "\nVenue: " + venue +
+                "\nOrganizers: " + organizers;
+    }
 }
