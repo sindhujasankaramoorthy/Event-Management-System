@@ -1,4 +1,5 @@
 package Model;
+
 public class User {
     private int userId;
     private String name;
@@ -14,5 +15,29 @@ public class User {
         this.phNo = phNo;
         this.role = role;
         this.pass = pass;
+    }
+
+    public int getUserId() {
+        return userId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public String getPhNo() {
+        return phNo;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public String getPass() {
+        return pass;
     }
 }

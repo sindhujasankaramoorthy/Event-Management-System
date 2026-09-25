@@ -1,3 +1,5 @@
+package Model;
+
 public class Register {
     private int rId;
     private boolean status;

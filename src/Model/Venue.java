@@ -12,4 +12,9 @@ public class Venue {
         this.block = block;
         this.capacity = capacity;
     }
+
+    @Override
+    public String toString() {
+        return vName + " (Block: " + block + ", Capacity: " + capacity + ")";
+    }
 }

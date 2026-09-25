@@ -23,7 +23,7 @@ public class Event {
         this.organizers = organizers;
     }
 
-    //we have used this is EventController -> searchEvent
+    //we have used this in EventController -> searchEvent
     public int getEId() {
         return eId;
     }

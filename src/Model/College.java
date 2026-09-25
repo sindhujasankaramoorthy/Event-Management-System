@@ -1,3 +1,5 @@
+package Model;
+
 public class College {
     private int cId;
     private String cName;

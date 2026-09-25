@@ -1,3 +1,5 @@
+package Model;
+
 public class Guest {
     private int gId;
     private String gName;
